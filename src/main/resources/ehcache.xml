@@ -1,0 +1,16 @@
+<ehcache>
+    <diskStore path="java.io.tempdir"/>
+    <defaultCache maxElementsInMemory="100" eternal="false" timeToIdleSeconds="5" timeToLiveSeconds="10" overflowToDisk="true" />
+
+    <!--http://www.ehcache.org/apidocs/2.5.2/net/sf/ehcache/config/CacheConfiguration.html-->
+    <!--<cache name="testCache1"-->
+           <!--maxElementsInMemory="10000"-->
+           <!--eternal="false"-->
+           <!--timeToIdleSeconds="3600"-->
+           <!--timeToLiveSeconds="10"-->
+           <!--overflowToDisk="true"-->
+           <!--diskPersistent="true"-->
+           <!--diskExpiryThreadIntervalSeconds="120"-->
+           <!--maxElementsOnDisk="10000"-->
+    <!--/>-->
+</ehcache>
